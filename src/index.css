@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .wrapper {
+    @apply lg:max-w-[1440px] px-6 lg:px-3 w-full mx-auto;
+  }
+}
+
+/* .without-border div.css-1ntq3v0-control{
+  @apply !bg-gray-100 !border-none !border-0 !border-transparent focus:!border-none focus:!ring-0 focus:!outline-none hover:!border-none hover:!border-transparent !shadow-none 
+} */
+
